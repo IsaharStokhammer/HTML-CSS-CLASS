@@ -1,3 +1,8 @@
+body {
+    background-color: rgba(120, 77, 141, 0.232);
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 h1 {
     color: rgb(9, 27, 128);
     background-color: aqua;
@@ -59,5 +64,15 @@ input[type="submit"]:hover {
 }
 img {
     width: 500px;
-    height: 500px;
+    height: 500px
+    ;
+}
+.button {
+    background-color: blue;
+    color: white;
+    border-radius: 5%;
+    font-size: larger;
+}
+.button:hover {
+    background-color: rgb(122, 37, 220);
 }
